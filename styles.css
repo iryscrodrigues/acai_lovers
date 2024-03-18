@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-color: #d87226;
+}
+.container {
+  background-image: linear-gradient(
+    to left bottom,
+    #4c143d,
+    #4c143d,
+    #4c143d,
+    #4c143d,
+    #4c143d,
+    #561945,
+    #601d4d,
+    #6a2255,
+    #812d68,
+    #99387b,
+    #b2448f,
+    #cc50a3
+  );
+}
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  font-size: 17.5px;
+  margin: 20px 0 10px;
+}
+a {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #64a517;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background: #03524c;
+  color: #ffeee4;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #67366c;
+  cursor: pointer;
+}
+
+.container {
+  color: #ffeee4;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+}
+
+.learn-more {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  color: #ffeee4;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
